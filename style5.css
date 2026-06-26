@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: #2c2929;
+  color: white;
+  padding: 10px 10pc;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  background-color: rgb(188, 71, 199);
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.projects {
+  padding: 40px 20px;
+  background-color: #bbbbbb;
+  text-align: center;
+}
+
+.project-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 300px;
+  border-radius: 10%;
+  box-shadow: 5px 5px #222;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.socials {
+  list-style-type: none;
+  padding: 0;
+}
+
+.socials img {
+  width: 32px;
+}
+
+.my-button {
+  background-color: #363636;
+  color: white;
+  padding: 10px 20px;
+  border: #222;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.my-button:hover {
+  background-color: rgb(188, 71, 199);
+}
+
+@media only screen and (min-width: 600px) and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+  .containter::after {
+    content: "Desktop View";
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  body {
+    background-color: green;
+  }
+  .containter::after {
+    content: "Large Desktop View";
+    color: white;
+  }
+}
